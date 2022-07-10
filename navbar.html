@@ -3,16 +3,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nandini</title>
+    <title>Navbar</title>
     <style>
         #conatiner{
             width:100%;
             display:flex;
             background-color:hsl(197, 85%, 10%);
             border-radius: 20px;
-            
-
-            
         }
         #conatiner>div{
             margin:auto;
@@ -54,12 +51,19 @@
             margin:20px
         }
         
-        
-
-
-
-
-
+        a
+        {
+            color: white;
+        }
+        a:link
+        {
+            text-decoration:none ;
+        }
+        a:hover
+        {
+            color: rgb(255, 245, 245);
+            text-decoration: underline;
+        }
     </style>
 
 
@@ -67,10 +71,10 @@
 <body>
 <div id="conatiner">
     <div>Reebook</div>
-    <div>Men</div>
-    <div>Women</div>
-    <div>Login</div>
-    <div>Sign Up</div>
+    <div><a href="mens.html" target="_blank">Men</a></div>
+    <div><a href="mens.html" target="_blank">Women</a></div>
+    <div><a href="login.html" target="_blank">Login</a></div>
+    <div><a href="signup.html" target="_blank">Sign Up</a></div>
     
 </div>
 </body>
