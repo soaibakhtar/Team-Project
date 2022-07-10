@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            display: flex;
+            justify-content: space-around;
+            margin:50px 20px ;
+        }
+        img{
+         height: 50%;
+        }
+        price:nth-child(1){
+            text-decoration: line-through;
+            color: grey;
+        }
+        price+price{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQLlu-TIG6b4Uv92GbajWZwR92vhZO1EvktskAvUOHGVvMohsWV8_AfoqqEVCzzEN6KABeej4pBw3fF&usqp=CAc" alt="">
+            <h3>Pause</h3>
+            <p>Men Cotton Long Sleeves Shrug</p>
+            <h4>₹799 <price>1499</price> <price>-47%</price></h4>
+        </div>
+        <div>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-EnxozYSl1ukOuejX-4aAVcuSXWm2dNMOmvLatNcW&s" alt="">
+           <h3>JUBINATION</h3>
+           <p>Men wool Sleeveless Sweater Pack</p>
+          <h4>₹799 <price>1499</price> <price>-47%</price></h4>
+        </div>
+    </div>
+</body>
+</html>
